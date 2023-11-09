@@ -1,0 +1,51 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #30f7d5, #fd2bc9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: gainsboro;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(300deg, #00bfff, #30f7d5, #fd2bc9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  .startImage{
+    width: 1200px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-Image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 0px 20px 0px 0px;
+
+  }
+
+  .card {
+    height: 650px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  
